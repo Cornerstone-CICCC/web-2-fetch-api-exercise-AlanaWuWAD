@@ -13,7 +13,7 @@ async function getData(){
     <div>${weather} ${weatherUnit}</div>
     <h3>Wind speed: ${windSpeed} ${windUnit}</h3>
     <div class="city"><strong>${data.timezone}</strong></div>
-    <h3>Last updat: ${time.toLocaleDateString()} ${time.toLocaleTimeString()}</h3>
+    <h3>Last updat: ${time.toLocaleDateString('en')} ${time.toLocaleTimeString('en')}</h3>
 `
     body.innerHTML = weatherHtml
 }
